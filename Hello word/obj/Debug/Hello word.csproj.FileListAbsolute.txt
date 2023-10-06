@@ -1,7 +1,0 @@
-C:\Users\Sexta-Feira\source\repos\HelloWorld\Hello word\bin\Debug\Hello word.exe.config
-C:\Users\Sexta-Feira\source\repos\HelloWorld\Hello word\bin\Debug\Hello word.exe
-C:\Users\Sexta-Feira\source\repos\HelloWorld\Hello word\bin\Debug\Hello word.pdb
-C:\Users\Sexta-Feira\source\repos\HelloWorld\Hello word\obj\Debug\Hello word.csproj.AssemblyReference.cache
-C:\Users\Sexta-Feira\source\repos\HelloWorld\Hello word\obj\Debug\Hello word.csproj.CoreCompileInputs.cache
-C:\Users\Sexta-Feira\source\repos\HelloWorld\Hello word\obj\Debug\Hello word.exe
-C:\Users\Sexta-Feira\source\repos\HelloWorld\Hello word\obj\Debug\Hello word.pdb
