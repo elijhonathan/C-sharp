@@ -6,7 +6,12 @@ int estoque = 7;
 Console.Write("Digite a quantidade que deseja comprar: ");
 a = int.Parse(Console.ReadLine());
 
-if (a <= estoque)
+if (a == 0)
+{
+    Console.WriteLine("Venda inválida");
+}
+
+else if (a <= estoque)
 {
     Console.WriteLine("Compra realizada com sucesso!");
 }
