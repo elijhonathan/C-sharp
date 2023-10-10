@@ -11,29 +11,3 @@ a = Console.ReadLine();
 
  Console.WriteLine(b);
 Console.WriteLine("Conversão realizada com sucesso");
-
-
-
-
-
-
-
-
-
-
-
-// DateTime dataAtual = DateTime.Now;
-// Console.WriteLine(dataAtual);
-
-
-
-
-
-
-
-//Pessoa p = new Pessoa();
-
-//p.Nome = "Eli";
-//p.Idade = 31;
-//p.Apresentar();
-
