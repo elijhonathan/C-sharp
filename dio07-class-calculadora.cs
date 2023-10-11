@@ -44,14 +44,14 @@ namespace C_.Models
         public void Coseno(double angulo)
         {
             double radiano = angulo * Math.PI / 180;
-            double coseno = Math.Sin(radiano);
+            double coseno = Math.Cos(radiano);
             Console.WriteLine($"Coseno de {angulo}° = {coseno}° ");
         }
 
         public void Tangente(double angulo)
         {
             double radiano = angulo * Math.PI / 180;
-            double tangente = Math.Sin(radiano);
+            double tangente = Math.Tan(radiano);
             Console.WriteLine($"Tangente de {angulo}° = {tangente}° ");
         }
 
