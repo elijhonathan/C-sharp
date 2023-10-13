@@ -10,26 +10,3 @@ for(int contador = 0; contador < arrayInteiros.Length; contador++)
 {
     Console.WriteLine($"Posição N° {contador} - {arrayInteiros[contador]}");
 }
-
-
-
-
-
-
-
-
-// Pessoa pessoa1 = new Pessoa();
-// pessoa1.Nome = "Eli";
-// pessoa1.Idade = 29;
-// pessoa1.Apresentar();
-
-
-
-
-
-
-
-
-
-
-
