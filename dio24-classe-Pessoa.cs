@@ -9,6 +9,7 @@ namespace ExemplosExplorando.Models
     {
         private string _nome;
         private int _idade;
+        private string _sobrenome;
 
         public string Nome 
         { 
@@ -28,6 +29,25 @@ namespace ExemplosExplorando.Models
                 _nome = value;
             }
         }
+
+        public string Sobrenome
+        { 
+            get            
+            {
+                return _sobrenome.ToUpper();
+            }
+            
+            set             
+            {
+                if (value == "")
+                {
+                    throw new ArgumentException("O sobrenome não pode ser vazio");
+                }
+
+                _sobrenome = value;
+            }
+        }
+
         public int Idade 
         { 
            get => _idade;
@@ -45,7 +65,7 @@ namespace ExemplosExplorando.Models
 
         public void Apresentar()
         {
-            Console.WriteLine($"Nome: {Nome}, Idade: {Idade}");
+            Console.WriteLine($"Nome: {Nome}, Sobrenome {Sobrenome}, Idade: {Idade}");
         }
     }
 }
