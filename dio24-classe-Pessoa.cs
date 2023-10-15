@@ -48,6 +48,8 @@ namespace ExemplosExplorando.Models
             }
         }
 
+        public string NomeCompleto => $"{Nome} {Sobrenome}";
+
         public int Idade 
         { 
            get => _idade;
@@ -65,7 +67,7 @@ namespace ExemplosExplorando.Models
 
         public void Apresentar()
         {
-            Console.WriteLine($"Nome: {Nome}, Sobrenome {Sobrenome}, Idade: {Idade}");
+            Console.WriteLine($"Nome: {NomeCompleto}, Idade: {Idade}");
         }
     }
 }
