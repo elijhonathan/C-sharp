@@ -1,9 +1,9 @@
 ﻿using System.Reflection;
 using ExemplosExplorando.Models;
 
-Pessoa p1 = new Pessoa("Eli", "Jhonathan");
+Pessoa p1 = new Pessoa(nome: "Eli", sobrenome: "Jhonathan");
 
-Pessoa p2 = new Pessoa("Jhennifer", "Tille");
+Pessoa p2 = new Pessoa(nome: "Jhennifer", sobrenome: "Tille");
 
 
 Curso cursoDeIngles = new Curso();
