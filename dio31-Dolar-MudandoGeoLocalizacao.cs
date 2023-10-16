@@ -7,5 +7,7 @@ decimal valorMonetario = 1582.40m;
 
 Console.WriteLine($"{valorMonetario:C}");
 
+Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")));
+
 
 
