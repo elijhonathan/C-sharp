@@ -9,7 +9,13 @@ namespace ExemplosExplorando.Models
     {
         public void Metodo1()
         {
+             try
+            {
             Metodo2();
+            }catch(Exception ex)
+            {
+                Console.WriteLine($"Exceção tratada {ex.Message}");
+            } 
         }
 
         public void Metodo2()
