@@ -11,7 +11,7 @@ try
     }
 } catch(Exception ex)
 {
-
+    Console.WriteLine("Ocorreu uma exceção generica");
 }
 
 
