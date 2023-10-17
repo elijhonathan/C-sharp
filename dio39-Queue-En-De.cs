@@ -1,4 +1,4 @@
-﻿using ExemplosExplorando.Models;
+using ExemplosExplorando.Models;
 
 Queue<int> fila = new Queue<int>();
 
@@ -13,6 +13,7 @@ foreach(int item in fila)
 }
 
 Console.WriteLine($"Removendo o elemento: {fila.Dequeue()}");
+fila.Enqueue(10);
 
 foreach(int item in fila)
 {
@@ -40,14 +41,9 @@ foreach(int item in fila)
     Console.WriteLine(item);
 }
 
+Console.WriteLine($"Removendo o elemento: {fila.Dequeue()}");
 
-
-
-
-
-
-
-
-
-
-
+foreach(int item in fila)
+{
+    Console.WriteLine(item);
+}
