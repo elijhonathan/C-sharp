@@ -14,7 +14,7 @@ namespace ExemplosExplorando.Models
             Metodo2();
             }catch(Exception ex)
             {
-                Console.WriteLine($"Exceção tratada {ex.Message}");
+                Console.WriteLine($"Exceção tratada {ex.StackTrace}");
             } 
         }
 
