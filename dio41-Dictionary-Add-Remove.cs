@@ -30,6 +30,20 @@ foreach (var item in estados)
     Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
 }
 
+//string chave = "MS";
+string chave = "BA";
+Console.WriteLine($"Verificando o elemento {chave}");
+
+if (estados.ContainsKey(chave))
+{
+    Console.WriteLine($"Valor existente: {chave}");
+}
+
+else
+{
+    Console.WriteLine($"Valor não existente. É seguro adicionar a chave: {chave}");
+}
+
 
 
 
