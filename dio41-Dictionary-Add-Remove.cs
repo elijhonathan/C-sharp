@@ -15,6 +15,7 @@ foreach (var item in estados)
 
 estados.Add("SC", "Santa Catarina");
 Console.WriteLine("Nova lista");
+estados["PR"] = "Paraná - Alterado";
 
 foreach (var item in estados)
 {
