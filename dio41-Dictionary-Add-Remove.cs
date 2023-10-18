@@ -14,7 +14,7 @@ foreach (var item in estados)
 }
 
 estados.Add("SC", "Santa Catarina");
-Console.WriteLine("Nova lista");
+Console.WriteLine("Lista");
 estados["PR"] = "Paraná - Alterado";
 
 foreach (var item in estados)
@@ -23,7 +23,7 @@ foreach (var item in estados)
 }
 
 estados.Remove("SP");
-Console.WriteLine("Nova lista");
+Console.WriteLine("Lista");
 
 foreach (var item in estados)
 {
@@ -43,6 +43,7 @@ else
 {
     Console.WriteLine($"Valor não existente. É seguro adicionar a chave: {chave}");
 }
+
 
 
 
