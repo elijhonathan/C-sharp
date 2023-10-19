@@ -1,0 +1,12 @@
+[
+  {
+    "Id": 1,
+    "Produto": "Material de escritorio",
+    "Preco": 25.50
+  },
+  {
+    "Id": 2,
+    "Produto": "Licensa de software",
+    "Preco": 110.00
+  }
+]
