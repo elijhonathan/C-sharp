@@ -6,10 +6,10 @@ ValueTuple<int, string, string, decimal>  tupla2 = (2, "Jhennifer", "Tilly", 10.
 
 var tupla3 = Tuple.Create(3, "Gwen", "Tilly", 8.9M);
 
-Console.WriteLine($"ID: {tupla.Item1}");
-Console.WriteLine($"Nome: {tupla.Item2}");
-Console.WriteLine($"Sobrenome: {tupla.Item3}");
-Console.WriteLine($"Nota: {tupla.Item4}");
+Console.WriteLine($"ID: {tupla.ID}");
+Console.WriteLine($"Nome: {tupla.Nome}");
+Console.WriteLine($"Sobrenome: {tupla.Sobrenome}");
+Console.WriteLine($"Nota: {tupla.Nota}");
 
 Console.WriteLine($"ID: {tupla2.Item1}");
 Console.WriteLine($"Nome: {tupla2.Item2}");
