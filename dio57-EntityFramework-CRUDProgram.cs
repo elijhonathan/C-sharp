@@ -2,10 +2,6 @@ using ModuloApi.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-//private const string connString = "Server=.\\SQLEXPRESS;Database=Blog;Integrated Security=SSPI;TrustServerCertificate=True";
-//"Data Source (localdb)\\MSSQLLocalDB;Database=NomeDataBase;Trusted_Connection=True;MultipleActiveResultSets=True;"
-
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
