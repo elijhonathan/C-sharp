@@ -18,9 +18,6 @@ class URI {
         
         valorTotal %= valorNotas[i];
         
-
     }
-
     }
-
 }
